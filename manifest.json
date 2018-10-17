@@ -6,8 +6,8 @@
  "author": "Brandon Sturgeon",
  "content_scripts": [
    {
-      "matches":    ["https?://*.reddit.com/*"],
-      "css":        ["gold-only.css"],
+      "matches": ["https://*.reddit.com/*"],
+      "css": ["gold-only.css"]
    }
  ]
 }
