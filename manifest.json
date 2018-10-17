@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "Reddit Gold Standard",
+ "description": "Hide the new Silver and Platinum badges on Reddit",
+ "version": "1",
+ "author": "Brandon Sturgeon",
+ "content_scripts": [
+   {
+      "matches":    ["https?://*.reddit.com/*"],
+      "css":        ["gold-only.css"],
+   }
+ ]
+}
